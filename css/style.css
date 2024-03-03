@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+/* cabeçalho */
+
+header {
+    background-image: linear-gradient(45deg, #671189, #8b57a0);
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Grid de produtos */
+
+.container {
+    background-color: #eaeaea;
+    min-height: 60vh; 
+    /* essa tag garante que o height (altura) tenha um tamanho minimo para o footer ficar sempre no fim */
+    padding: 50px;
+}
+
+.products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    
+}
+
+/* footer */
+
+footer {
+    background-image: linear-gradient(45deg, #671189, #8b57a0);
+    color: #fff;
+    text-align: center;
+    padding: 80px;
+}
