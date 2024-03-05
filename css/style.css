@@ -10,8 +10,21 @@
 header {
     background-image: linear-gradient(45deg, #671189, #8b57a0);
     color: #fff;
-    padding: 15px;
-    text-align: center;
+    padding: 15px 50px;
+}
+
+.visual-identity h1 {
+    font-size: 20px;
+}
+
+.visual-identity {
+    display: flex;
+    align-items: center;
+}
+
+.visual-identity img {
+    height: 20px;
+    padding: 0 15px 0 0;
 }
 
 /* Grid de produtos */
